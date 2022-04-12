@@ -1,0 +1,248 @@
+:root {
+    --main-bg-color: #ff414d;
+    --bg-color: rgb(240, 244, 247);
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.bgdark {
+    background-color: #151c26;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+#bgimage {
+    background-image: url(/Image/xbg_1.jpg.pagespeed.ic.EiRxZF1ff8.webp);
+    background-color: rgba(0, 0, 0, 0.452);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    min-height: 700px;
+    position: relative;
+    top: -80px;
+    bottom: -80px;
+    left: 0;
+    padding-top: 150px;
+    background-blend-mode: multiply;
+}
+
+.position-card {
+    z-index: 3;
+    margin-top: -130px;
+}
+
+.icon-card {
+    color: var(--main-bg-color);
+}
+
+
+.effect-card {
+    color: black;
+}
+
+.effect-card:hover {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.effect-card:hover .icon-card {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.vh-image-top-card {
+    height: 250px;
+}
+
+.icon-position-bg {
+    margin-top: -40%;
+    z-index: 4;
+    background-color: var(--main-bg-color);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px white solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-position {
+    z-index: 6;
+}
+
+.height-whole-card {
+    height: 530px;
+}
+
+
+
+#image-left {
+    background-image: url(/Image/ximage_2.jpg.pagespeed.ic._nvhursf8z.webp);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+
+#bg-image-eiffel {
+    background-image: url(/Image/xabout.jpg.pagespeed.ic.TFuz3vcahY.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-customer1 {
+    background-image: url(/Image/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-customer2 {
+    background-image: url(/Image/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-customer3 {
+    background-image: url(/Image/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-pyramid {
+    background-image: url(/Image/xbg_2.jpg.pagespeed.ic.sKkOP_bLL8.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+}
+
+
+.bg-dark-shape {
+    background-image: url(/Image/curls.png.webp);
+    height: 400px;
+    background-position: center;
+    background-repeat: repeat;
+    z-index: 0;
+    top: 300px;
+    left: 0;
+}
+
+.icon-position-bg-2 {
+    z-index: 4;
+    background-color: var(--main-bg-color);
+    position: relative;
+    left: 45%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px white solid;
+    align-items: center;
+}
+
+.icon-position-2 {
+    z-index: 6;
+}
+
+.card-img-top {
+    background-image: url(/Image/ximage_1.jpg.pagespeed.ic.QnA6DpkzOF.webp);
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-img-top2 {
+    background-image: url(/Image/ximage_2.jpg.pagespeed.ic._nvhursf8z.webp);
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-img-top3 {
+    background-image: url(/Image/ximage_3.jpg.pagespeed.ic.7IAJXQIWQY.webp);
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-img-top4 {
+    background-image: url(/Image/ximage_4.jpg.pagespeed.ic.cjWffy-ATT.webp);
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 576px) {
+    .height-card {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .height-right-attached {
+        height: 600px;
+    }
+
+    .height-eiffel {
+        height: 110px;
+    }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .height-card {
+        height: 200px;
+        padding-bottom: 0;
+    }
+
+    .height-eiffel {
+        height: 150px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .bgdark {
+        background-color: #151c263b;
+        height: 80px;
+    }
+
+    .icon-position-bg-2 {
+        left: 38%;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
